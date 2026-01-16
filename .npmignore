@@ -1,0 +1,10 @@
+# .npmignore content:
+tests/
+examples/
+docs/
+.git/
+.gitignore
+*.log
+.DS_Store
+.vscode/
+node_modules/

@@ -1,0 +1,50 @@
+{
+  "name": "docufresh",
+  "version": "0.1.0",
+  "description": "Keep your documents fresh, automatically - Auto-update dates, stats, and time-sensitive content",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "browser": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "require": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "node tests/core.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "dynamic-content",
+    "fresh-content",
+    "auto-update",
+    "document-automation",
+    "content-management",
+    "markers",
+    "templates",
+    "date-automation",
+    "static-site",
+    "docufresh",
+    "text-replacement",
+    "copyright-year"
+  ],
+  "author": "Vamsi Manthena <manthenavamsi@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manthenavamsi/docufresh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manthenavamsi/docufresh/issues"
+  },
+  "homepage": "https://github.com/manthenavamsi/docufresh#readme"
+}
